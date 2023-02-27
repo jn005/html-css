@@ -1,0 +1,96 @@
+@media(min-width: 600px){
+.container
+{
+display: grid;
+grid-template-columns: auto auto auto;
+background: linear-gradient(40deg,skyblue,yellowgreen,darkgoldenrod);
+}
+.top{
+	background-color: yellow;
+	text-align: center;
+	color: blue;
+}
+.num{
+	float: right;
+	size: 20;
+}
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine
+{
+	border: solid 1px;
+	border-color: blue;
+	padding: 20px;
+}
+.one{
+	flex: 1;
+	order: 1;
+}
+.two{
+	flex: 1;
+	order: 2;
+}
+.three{
+	flex: 1;
+	order: 3;
+}
+.four{
+	flex: 1;
+	order: 4;
+}
+.five{
+	flex: 1;
+	order: 5;
+}
+.six{
+	flex: 1;
+	order: 6;
+}
+.seven{
+	flex: 1;
+	order: 7;
+}
+.eight{
+	flex: 1;
+	order: 8;
+}
+.nine{
+	flex: 1;
+	order: 9;
+}
+.one1{
+	width: 70px;
+	height: 70px;
+	float: right;
+}
+button{
+	background-color: ghostwhite;
+	border-radius: 5px;
+	float:center;
+
+}
+button:hover{
+	background-color: darkmagenta;
+}
+.cart{
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+.one11
+{
+	width: 70px;
+	height: 70px;
+}
+pre{
+	float: left;
+}
+.two1{
+	float: left;
+}
+.remove{
+	float: right;
+	background-color: seagreen;
+}
+.remove:hover{
+	background-color: red;
+}
